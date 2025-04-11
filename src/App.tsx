@@ -3335,7 +3335,7 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Address</h4>
-                      <p className="text-gray-600">123 Medical Complex, Mall Road</p>
+                      <p className="text-gray-600">Bazar Shatrian, Nimak Mandi</p>
                       <p className="text-gray-600">Amritsar, Punjab, India</p>
                     </div>
                   </div>
@@ -3381,7 +3381,7 @@ function App() {
             <div data-aos="fade-left">
               <div className="map-container">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3397.0294044563335!2d74.87345931544636!3d31.634777981330785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391964aa0e061f45%3A0x9f62a10d29f7c7c3!2sMall%20Rd%2C%20Amritsar%2C%20Punjab!5e0!3m2!1sen!2sin!4v1645000000000!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27182.185169907403!2d74.85204323476559!3d31.612675300000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39197b5824117b0f%3A0x9377dcca2abe8c1b!2sNimak%20Mandi%2C%20Amritsar%2C%20Amritsar%20Cantt.%2C%20Punjab%20143006!5e0!3m2!1sen!2sin!4v1744371782612!5m2!1sen!2sin"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
