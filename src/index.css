@@ -1,0 +1,65 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #D4AF37;
+  --secondary: #1E3A8A;
+  --accent: #2563EB;
+}
+
+body {
+  @apply antialiased;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  color: var(--primary) !important;
+}
+
+.swiper-pagination-bullet {
+  background: var(--primary) !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: var(--primary) !important;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, var(--secondary) 0%, #0F172A 100%);
+}
+
+.stat-card {
+  @apply bg-white rounded-xl shadow-lg p-6 transform hover:scale-105 transition-all duration-300;
+}
+
+.contact-info {
+  @apply bg-white rounded-xl shadow-lg p-8 backdrop-blur-lg;
+  background: rgba(255, 255, 255, 0.95);
+}
+
+.map-container {
+  @apply rounded-xl shadow-xl overflow-hidden;
+  height: 450px;
+}
+
+@media (max-width: 768px) {
+  .map-container {
+    height: 300px;
+  }
+}
+
+.nav-link {
+  @apply text-gray-700 hover:text-[#D4AF37] transition-colors duration-300;
+}
+
+.btn-primary {
+  @apply bg-[#D4AF37] text-white px-6 py-2 rounded-lg hover:bg-[#B38F2D] transition-all duration-300 transform hover:scale-105;
+}
+
+.section-title {
+  @apply text-4xl font-bold text-center mb-4;
+  background: linear-gradient(to right, var(--secondary), var(--primary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
