@@ -3345,8 +3345,9 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Phone</h4>
-                      <p className="text-gray-600">+91 1234567890</p>
-                      <p className="text-gray-600">+91 9876543210</p>
+                      {/* <p className="text-gray-600">+91 1234567890</p> */}
+                      {/* <p className="text-gray-600">+91 9876543210</p> */}
+                      <a href="tel:+916239058188" className="text-gray-600">+91 6239058188</a>
                     </div>
                   </div>
                   <div className="flex items-start space-x-4">
@@ -3355,8 +3356,11 @@ function App() {
                     </div>
                     <div>
                       <h4 className="font-semibold text-gray-900">Email</h4>
-                      <p className="text-gray-600">info@deepdiagnostic.com</p>
-                      <p className="text-gray-600">support@deepdiagnostic.com</p>
+                      {/* <p className="text-gray-600">deepdiagnostic@gmail.com</p> */}
+                      <a href="mailto:deepdiagnostic@gmail.com" className='text-gray-600'>deepdiagnostic@gmail.com</a>
+
+                      {/* <p className="text-gray-600">info@deepdiagnostic.com</p> */}
+                      {/* <p className="text-gray-600">support@deepdiagnostic.com</p> */}
                     </div>
                   </div>
                 </div>
